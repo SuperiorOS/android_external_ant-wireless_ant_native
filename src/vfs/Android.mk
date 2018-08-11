@@ -17,6 +17,7 @@
 include $(CLEAR_VARS)
 
 LOCAL_CFLAGS := -g -c -W -Wall -O2 -Wno-unused-parameter
+LOCAL_CFLAGS := -Wno-error
 
 LOCAL_C_INCLUDES := \
    $(LOCAL_PATH)/src/common/inc \
